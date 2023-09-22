@@ -12,18 +12,6 @@ Data Source
 
 Diseases in the Dataset
 
-Project Pipeline
-
-Data Reading/Data Understanding
-
-Dataset Creation
-
-Dataset Visualization
-
-Model Building & Training
-
-Class Distribution and Imbalance Handling
-
 Technologies Used
 
 Steps to Reproduce
@@ -61,35 +49,35 @@ Squamous cell carcinoma
 
 Vascular lesion
 
-# Project Pipeline
+Project Pipeline
 
-# Data Reading/Data Understanding
+Data Reading/Data Understanding
 
-# Defining the paths for train and test images.
+Defining the paths for train and test images.
+ 
+Dataset Creation
 
-# Dataset Creation
+Create train & validation datasets with a batch size of 32 and resize images to 180x180.
 
-# Create train & validation datasets with a batch size of 32 and resize images to 180x180.
+Dataset Visualization
 
-# Dataset Visualization
+Visualize one instance of all nine classes present in the dataset.
 
-# Visualize one instance of all nine classes present in the dataset.
+Model Building & Training
 
-# Model Building & Training
+Build a CNN model that can accurately detect the 9 classes.
 
-# Build a CNN model that can accurately detect the 9 classes.
+Use an appropriate optimizer and loss function.
 
-# Use an appropriate optimizer and loss function.
+Train the model for ~20 epochs.
 
-# Train the model for ~20 epochs.
+Examine for underfitting/overfitting and apply data augmentation accordingly.
 
-# Examine for underfitting/overfitting and apply data augmentation accordingly.
+Class Distribution and Imbalance Handling
 
-# Class Distribution and Imbalance Handling
+Examine class distribution in the training dataset.
 
-# Examine class distribution in the training dataset.
-
-# Rectify class imbalances using the Augmentor library.
+Rectify class imbalances using the Augmentor library.
 
 # Technologies Used
 
