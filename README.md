@@ -39,7 +39,8 @@ The aim is to create a solution that can evaluate skin images and alert dermatol
 
 # Data Overview
 Data Source
-[k](https://towardsdatascience.com/downloading-datasets-into-google-drive-via-google-colab-bcb1b30b0166)
+
+(https://towardsdatascience.com/downloading-datasets-into-google-drive-via-google-colab-bcb1b30b0166)
 
 # Diseases in the Dataset
 Actinic keratosis
